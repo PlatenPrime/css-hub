@@ -2,50 +2,58 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Selectors</title>
-    <link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS Selectors</title>
+	<link rel="stylesheet" href="css/style.css">
+
+
+
+	<style>
+		.background-image {
+			background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5b/%D0%9B%D1%96%D1%82%D0%BD%D1%96%D0%B9_%D0%BA%D1%80%D0%B0%D1%94%D0%B2%D0%B8%D0%B4.JPG');
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+			height: 400px;
+			/* Adjust the height as needed */
+		}
+
+		div {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		span {
+			font-size: 4rem;
+			mix-blend-mode: screen;
+			background: #ffffff;
+			padding: 1rem;
+		}
+	</style>
+
+
+
+
 </head>
 
+
+
 <body>
-    <header>
-        <h1>CSS Selectors</h1>
-    </header>
-    <main>
-        <article>
-            <h2>Article 1</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam cumque voluptatum tempore officiis
-                deserunt
-                officia, molestias tenetur tempora. Numquam assumenda eligendi ipsam ut quibusdam ex autem placeat
-                deleniti
-                hic optio?</p>
-        </article>
-        <article>
-            <h2>Article 2</h2>
-            <p id="second" class="gray">Iste, possimus, delectus blanditiis, in dolores voluptatem culpa officia quae
-                eius
-                consequatur
-                suscipit optio
-                cum hic. Architecto ipsum rem accusamus! Quaerat repellendus <span class="highlight">nihil</span>
-                ratione tenetur voluptas
-                veritatis,
-                sunt
-                nesciunt rem.</p>
-        </article>
-        <article>
-            <h2>Article 3</h2>
-            <p class="gray">Iste, possimus, delectus blanditiis, in dolores voluptatem culpa officia quae eius
-                consequatur
-                suscipit optio
-                cum hic. Architecto <span class="highlight">ipsum</span> rem accusamus! Quaerat repellendus nihil
-                ratione tenetur voluptas
-                veritatis,
-                sunt
-                nesciunt rem.</p>
-        </article>
-    </main>
+
+
+	<div class="background-image">
+
+		<span>
+			Текст с небесным фоном
+		</span>
+
+
+	</div>
+
+
 </body>
 
 </html>
